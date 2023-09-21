@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {display: flex;
+    justify-content: space-between; 
+    #logo {
+        width: 150px;
+        height: 150px;
+    }
+    .padre {display: flex; 
+    }
+}
+#menu {list-style: none;}
+ul li a {
+    display: block;
+    background-color: rgb(250, 155, 207);
+        padding: 10px;
+}
+#hero {display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#subtitulo {
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.nuestros-servicios {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.productos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.presentacion {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+}
+#esteticista {
+    height: 400px;
+    width: 400px;
+#frontis {
+    height: 400px;
+    width: 400px;
+}
+}
+.laboratorio {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+h1 {
+    color: rgb(223, 97, 139);
+    font-size: 50px; 
+}
+h2 {
+    color: rgb(223, 97, 139);
+    font-size: 45px;
+}
+p {
+    color: rgb(153, 44, 62);
+    font-size: 20px;
+}
+label {
+    color: rgb(123, 49, 192);
+}
+body {
+    background-color: black;
+    /*mobile first*/
+    @media (min-width: 320px) {
+        background-color: rgba(62, 58, 75, 0.342);
+    @media (min-width: 760px) {
+    background-color: rgba(127, 255, 212, 0.342);
+    
+    }
+    }
+    @media (min-width: 320px) {
+    section div {
+        flex-basis: 50%;
+    }
+    @media (min-width) :760px {
+        flex-basis: 25%
+    }
+}
+}
